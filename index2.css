@@ -1,0 +1,198 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F7F7F7;
+}
+
+.btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(37, 9, 68);
+    color: white;
+    border-radius: 50px;
+}
+/* texte intermediaire*/
+.texte{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+/* texte intermediaire*/
+
+@media (max-width: 768px) {
+    .text-end {
+      padding: 20px;
+      margin-right: 0;
+      margin-top: 50px;
+      width: 100vw;
+      
+    }
+    .text-end h1 {
+      font-size: 24px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .text-end p {
+      font-size: 16px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .text-end a {
+      font-size: 16px;
+      padding: 10px 20px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+  }
+/* ______section deux______*/
+.deux{
+    height: 90vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px 2px;
+   
+}
+
+/* carousel section deux */
+
+.principe{
+  height: 90vh;
+}
+.carousel {
+  margin-top: px;
+}
+
+.carousel-inner {
+  width: 100%;
+  height:525px;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 140px 2px;
+  margin-bottom: -30px;
+}
+/* la couleur pour les textes sur le carousel dans la section deux*/
+
+
+
+/*fin du carousel section deux */
+
+/* Section services  debut */
+.services{
+    height: 175vh;
+ 
+ 
+}
+.ligne-1{
+    padding: 25px 0px;
+}
+/* icon dans la ligne-1*/
+.fas {
+    font-size: 50px;
+    display: flex; 
+    justify-content: center;
+    padding: 20px 0px;
+}
+/*ligne-1 police*/
+.police{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+/* fontweight du carre de la ligne-1*/
+.fw{
+    font-weight: bold;
+}
+
+/* contenu ligne-1 a gauche . un carré, avec un titre et un icon
+.text-contenu-ligne-1{
+    text-align: center;
+    border: 1px solid black;
+    height: 35vh;
+    width: 13vw;
+}
+    */
+
+
+
+
+/* section service fin*/
+
+/*Section pourquoi nous choisir debut*/
+
+.nous-choisir{
+   
+    background-color: rgb(105, 4, 4);
+    height: 100vh;
+    padding: 20px;
+}
+
+@media (max-width:768px) {
+
+    .nous-choisir{
+        margin-top: 80vh;
+        background-color: rgb(105, 4, 4);
+    height: 150vh;
+    padding: 20px;
+}
+img{
+    width: 320px;
+}
+.marge{
+  margin-bottom: 10px;
+}
+
+}
+
+/*Section pourquoi nous choisir fin*/
+
+/* section nos destinations*/
+.Nos-destinations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Nos-destinations .container {
+  text-align: center;
+}
+
+.Nos-destinations .row {
+  justify-content: center;
+}
+
+.Nos-destinations .col-md-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+/*fin section nos destinations*/
